@@ -145,6 +145,41 @@
         </li>
       </ul>
     </section>
+    <section class="products">
+      <h2 class="title title-l">Перфораторы</h2>
+      <form class="products-filter" action="https://echo.htmlacademy.ru/" method="get">
+        <fieldset class="filters-fieldset form-range-bar">
+          <legend class="text-l text-bold form-range-bar_title">Цена</legend>
+          <div class="range-wrapper filters-background">
+            <div class="range-scale">
+              <div class="range-bar">
+                <button class="button button-range button-range-min" type="button">
+                  <span class="visually-hidden">Изменить минимальную цену.</span>
+                </button>
+                <button class="button button-range button-range-max" type="button">
+                  <span class="visually-hidden">Изменить максимальную цену.</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <ul class="catalog-range-list">
+            <li class="catalog-range-item">
+              <label class="price">
+                <input class="price-min" type="number" name="price-min" min="0" max="9999" value="0">
+                <span class="visually-hidden">Минимальная цена.</span>
+              </label>
+            </li>
+            <li class="catalog-range-item">
+              <label class="price">
+                <input class="price-max" type="number" name="price-max" min="1" max="99000" value="30000">
+                <span class="visually-hidden">Максимальная цена</span>
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+
+      </form>
+    </section>
   </main>
 
 </body>
