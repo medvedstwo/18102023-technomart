@@ -179,7 +179,6 @@
         </fieldset>
         <fieldset class="filters-fieldset form-checkbox">
           <legend class="text-l text-bold form-range-bar_title">Производители</legend>
-
           <ul class="list checkbox-list text-s">
             <li class="checkbox-item">
               <label class="checkbox-label">
@@ -214,6 +213,25 @@
                 <input class="visually-hidden checkbox-input-hidden" type="checkbox" name="hitachi">
                 <span class="checkbox-input"></span>
                 <span class="filters-text">Hitachi</span>
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset class="filters-fieldset form-radio">
+          <legend class="text-l text-bold form-range-bar_title">Питание</legend>
+          <ul class="list checkbox-list text-s">
+            <li class="radio-item">
+              <label class="radio-label">
+                <input class="visually-hidden radio-input-hidden" type="radio" value="accumulator" name="energy" checked>
+                <span class="radio-input"></span>
+                <span class="filters-text">Аккумуляторные</span>
+              </label>
+            </li>
+            <li class="radio-item">
+              <label class="radio-label">
+                <input class="visually-hidden radio-input-hidden" type="radio" value="electricity" name="energy">
+                <span class="radio-input"></span>
+                <span class="filters-text">Сетевые</span>
               </label>
             </li>
           </ul>
