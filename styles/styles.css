@@ -218,3 +218,21 @@ body {
 .store-item-title {
   margin-bottom: 57px;
 }
+
+.slider-item {
+  padding: 20px 20px 40px 50px;
+}
+
+.slider-item-drills {
+  background-image: url("../images/backgroung/drills-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.slider-item-perforator {
+  background-image: url("../images/backgroung/perforator-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
