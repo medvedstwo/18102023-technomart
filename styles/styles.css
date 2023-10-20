@@ -54,3 +54,44 @@ body {
   color: #293449;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* text */
+
+.text-s {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+/* header */
+
+.header-wrapper_light {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 118px 0 117px;
+  background-color: #f3f7f9;
+}
+
+.header-description {
+  font-style: italic;
+  color: #ee3643;
+}
+
+.header-address {
+  display: flex;
+  align-items: center;
+  gap: 31px;
+}
+
