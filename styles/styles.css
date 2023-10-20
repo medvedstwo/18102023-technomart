@@ -69,10 +69,24 @@ body {
 
 /* button */
 
+.button {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  color: #ffffff;
+  text-decoration: none;
+  border: none;
+}
+
 .button-nav {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2px;
+}
+
+.button-secondary {
+  background-color: #63a63e;
+  border-radius: 4px;
 }
 
 /* link */
@@ -152,4 +166,16 @@ body {
 
 .header-wrapper_semi-dark {
   background-color: #3d546f;
+}
+
+.header-navigation {
+  margin: 0 auto;
+}
+
+.navigation-link {
+  color: #ffffff;
+}
+
+.button-order {
+  padding: 12px 10px;
 }
