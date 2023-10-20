@@ -76,12 +76,18 @@ body {
   color: #ffffff;
   text-decoration: none;
   border: none;
+  cursor: pointer;
 }
 
 .button-nav {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2px;
+}
+
+.button-primary {
+  background-color: #ee3643;
+  border-radius: 4px;
 }
 
 .button-secondary {
@@ -235,4 +241,13 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.button-store-list {
+  padding: 11px 12px 11px 28px;
+  border: 1px solid #ffffff;
+}
+
+.slider-item .button-primary {
+  padding: 13px 6px 14px 5px;
 }
