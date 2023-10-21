@@ -304,3 +304,26 @@ body {
   border-radius: 2px;
   border: 1px solid #3d546f;
 }
+
+.products-old-price {
+  font-weight: 700;
+  color: #a9a9a9;
+  letter-spacing: 2px;
+}
+
+.products-pagination-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 45px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #3d546f;
+  border-radius: 2px;
+}
+
+.products-pagination-link_current {
+  color: #3d546f;
+  background-color: #ffffff;
+}
