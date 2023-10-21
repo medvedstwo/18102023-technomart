@@ -536,7 +536,8 @@ body {
 }
 
 .services-wrapper {
-  margin: 0 115px;
+  width: 1170px;
+  margin: 0 auto;
 }
 
 .services-title {
@@ -549,6 +550,12 @@ body {
   width: 560px;
   margin: 0 auto 64px;
   text-align: center;
+}
+
+.services-list {
+  display: grid;
+  grid-template-columns: repeat(3, 370px);
+  gap: 30px;
 }
 
 .services-item {
@@ -570,7 +577,15 @@ body {
 /* index-wrapper */
 
 .index-wrapper {
-  padding: 52px 115px 49px 116px;
+  display: flex;
+  justify-content: space-between;
+  width: 1170px;
+  margin: 0 auto;
+  padding: 52px 0 49px;
+}
+
+.about-us {
+  width: 500px;
 }
 
 .about-us-title,
