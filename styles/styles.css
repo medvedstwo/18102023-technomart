@@ -200,6 +200,8 @@ body {
 
 .link-logo {
   position: absolute;
+  top: 0;
+  z-index: 2;
 }
 
 .form-search {
@@ -228,15 +230,30 @@ body {
 }
 
 .header-wrapper_semi-dark {
+  padding: 0 115px 0 118px;
   background-color: #3d546f;
 }
 
 .header-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin: 0 auto;
 }
 
+.navigation-list {
+  display: flex;
+  padding: 0;
+}
+
 .navigation-link {
+  display: inline-block;
+  padding: 19px 4px 27px;
   color: #ffffff;
+}
+
+.navigation-item:not(:last-child):not(:last-child) {
+  margin-right: 37px;
 }
 
 .button-order {
