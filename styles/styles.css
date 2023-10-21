@@ -133,9 +133,20 @@ body {
   text-transform: uppercase;
 }
 
+.title-l {
+  font-size: 36px;
+  line-height: 42px;
+}
+
 .title-m {
   font-size: 24px;
   line-height: 30px;
+}
+
+.title-s {
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: none;
 }
 
 /* header */
@@ -200,6 +211,11 @@ body {
 
 /* store */
 
+.store-wrapper {
+  padding: 52px 0 50px;
+  margin: 0 auto;
+}
+
 .store-item {
   padding: 20px 37px 33px 25px;
   color: #ffffff;
@@ -225,12 +241,18 @@ body {
   margin-bottom: 57px;
 }
 
+.slider-description {
+  margin: 0;
+  padding: 0;
+}
+
 .slider-item {
   padding: 20px 20px 40px 50px;
 }
 
 .slider-item-drills {
   background-image: url("../images/backgroung/drills-background.jpg");
+  background-color: #764e42;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -238,13 +260,16 @@ body {
 
 .slider-item-perforator {
   background-image: url("../images/backgroung/perforator-background.jpg");
+  background-color: #222222;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .button-store-list {
+  display: inline-block;
   padding: 11px 12px 11px 28px;
+  width: 180px;
   border: 1px solid #ffffff;
 }
 
@@ -254,4 +279,28 @@ body {
 
 /* products */
 
+.products-wrapper {
+  padding: 0 0 53px;
+  margin: 0 auto;
+}
 
+.products-title {
+  margin-bottom: 26px;
+}
+
+.filters-fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+.filters-text {
+  color: #000000;
+}
+
+.products-sorting {
+  width: 280px;
+  padding: 8px 0 8px 16px;
+  font-family: "PT Sans", sans-serif;
+  border-radius: 2px;
+  border: 1px solid #3d546f;
+}
