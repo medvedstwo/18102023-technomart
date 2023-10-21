@@ -402,3 +402,22 @@ body {
 .footer-wrapper_dark {
   background-color: #293449;
 }
+
+.footer-phone-link {
+  color: #ffffff;
+}
+
+.footer-social-list {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-feedback-description,
+.footer-copyright-description {
+  margin: 0;
+}
+
+.footer-feedback-link,
+.footer-copyright-link {
+  color: #ffd180;
+}
