@@ -605,6 +605,7 @@ body {
 /* footer */
 
 .main-footer_semi-dark {
+  padding: 0 0 34px;
   color: #ffffff;
   background-color: #32425c;
 }
@@ -620,20 +621,50 @@ body {
   margin: 0 auto;
 }
 
+.footer-logo-link {
+  display: inline-block;
+  margin-bottom: 21px;
+}
+
+.footer-address-description {
+  margin: 0 0 21px;
+}
+
 .footer-phone-link {
+  display: inline-block;
+  margin-bottom: 21px;
   color: #ffffff;
 }
 
 .footer-social-list {
+  display: flex;
+  gap: 5px;
   margin: 0;
   padding: 0;
 }
 
-.footer-feedback-description,
+.footer-wrapper_right {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding-top: 21px;
+}
+
+.form-subscribe {
+  display: flex;
+  justify-content: flex-end;
+  width: 260px;
+  flex-wrap: wrap;
+}
+
 .footer-copyright-description {
   margin: 0;
   padding: 21px 0;
   color: #ffffff;
+}
+
+.footer-feedback-link {
+  margin-bottom: 29px;
 }
 
 .footer-feedback-link,
