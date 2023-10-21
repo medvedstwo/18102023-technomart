@@ -632,6 +632,7 @@ body {
 .footer-feedback-description,
 .footer-copyright-description {
   margin: 0;
+  padding: 21px 0;
   color: #ffffff;
 }
 
