@@ -604,13 +604,18 @@ body {
 
 /* footer */
 
-.main-footer {
+.main-footer_semi-dark {
   color: #ffffff;
   background-color: #32425c;
 }
 
-.footer-wrapper_dark {
+.main-footer_dark {
   background-color: #293449;
+}
+
+.footer-wrapper {
+  width: 1170px;
+  margin: 0 auto;
 }
 
 .footer-phone-link {
@@ -625,6 +630,7 @@ body {
 .footer-feedback-description,
 .footer-copyright-description {
   margin: 0;
+  color: #ffffff;
 }
 
 .footer-feedback-link,
