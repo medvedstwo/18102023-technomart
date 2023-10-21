@@ -70,9 +70,6 @@ body {
 /* button */
 
 .button {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   font-weight: 700;
   color: #ffffff;
   text-decoration: none;
@@ -95,6 +92,12 @@ body {
 .button-secondary {
   background-color: #63a63e;
   border-radius: 4px;
+}
+
+/* input */
+
+.input {
+  font-family: "PT Sans", sans-serif;
 }
 
 /* link */
@@ -187,7 +190,31 @@ body {
 }
 
 .header-wrapper_dark {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 115px;
   background-color: #293449;
+}
+
+.link-logo {
+  position: absolute;
+}
+
+.form-search {
+  margin-left: 220px;
+}
+
+.input-form-search {
+  width: 716px;
+  padding: 11px 0 10px 53px;
+  background-color: transparent;
+  border: none;
+}
+
+.input-form-search::placeholder {
+  font-family: "PT Sans", sans-serif;
+  color: #ffffff;
 }
 
 .entry-link,
