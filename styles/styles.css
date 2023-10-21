@@ -470,6 +470,22 @@ body {
   letter-spacing: 2px;
 }
 
+.button-buy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 138px;
+  padding: 11px 0;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  mask: url("../images/control/product-button.svg");
+    -webkit-mask: url("../images/control/product-button.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ee3643;
+}
+
 .products-pagination-link {
   display: flex;
   justify-content: center;
