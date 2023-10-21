@@ -7,15 +7,17 @@
   <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-  <header class="index-header">
-    <div class="header-wrapper_light">
+  <header class="index-header_light">
+    <div class="header-wrapper">
       <h1 class="text-s header-description">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
       <address class="header-address">
         <p class="text-s header-address-description">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
         <a class="text-m text-bold link button-nav header-phone-link" href="+78125550555">+7 (812) 555-05-55</a>
       </address>
     </div>
-    <div class="header-wrapper_dark">
+  </header>
+  <header class="index-header_dark">
+    <div class="header-wrapper">
       <a class="link-logo">
         <img class="img-logo" src="images/logo/technomart-logo.svg" width="220" height="50" alt="Логотип Техномарт.">
       </a>
@@ -45,52 +47,53 @@
         </li>
       </ul>
     </div>
-    <div class="header-wrapper_semi-dark">
-      <nav class="header-navigation">
-        <ul class="list navigation-list navigation-list-menu">
+  </header>
+  <header class="index-header_semi-dark">
+    <nav class="header-navigation">
+      <ul class="list navigation-list navigation-list-menu">
+        <li class="navigation-item">
+          <a class="link navigation-link" href="#">Главная</a>
+        </li>
+        <li class="navigation-item">
+          <a class="link navigation-link" href="#">Компания</a>
+        </li>
+        <li class="navigation-item">
+          <a class="link navigation-link" href="#">Каталог</a>
+        </li>
+        <li class="navigation-item">
+          <a class="link navigation-link" href="#">Новости</a>
+        </li>
+        <li class="navigation-item">
+          <a class="link navigation-link" href="#">Спецпредложения</a>
+        </li>
+        <li class="navigation-item">
+          <a class="link navigation-link" href="#">Доставка</a>
+        </li>
+        <li class="navigation-item">
+          <a class="link navigation-link" href="#">Контакты</a>
+        </li>
+      </ul>
+      <ul class="list navigation-list">
+        <li class="navigation-item">
+          <a class="button button-favorites" href="#">
+            <span class="visually-hidden">Избранное.</span>
+            <!-- favorites-count для количества в избранном -->
+            <span class="favorites-count">&nbsp;</span>
+          </a>
+        </li>
           <li class="navigation-item">
-            <a class="link navigation-link" href="#">Главная</a>
-          </li>
-          <li class="navigation-item">
-            <a class="link navigation-link" href="#">Компания</a>
-          </li>
-          <li class="navigation-item">
-            <a class="link navigation-link" href="#">Каталог</a>
-          </li>
-          <li class="navigation-item">
-            <a class="link navigation-link" href="#">Новости</a>
-          </li>
-          <li class="navigation-item">
-            <a class="link navigation-link" href="#">Спецпредложения</a>
-          </li>
-          <li class="navigation-item">
-            <a class="link navigation-link" href="#">Доставка</a>
-          </li>
-          <li class="navigation-item">
-            <a class="link navigation-link" href="#">Контакты</a>
-          </li>
-        </ul>
-        <ul class="list navigation-list">
-          <li class="navigation-item">
-            <a class="button button-favorites" href="#">
-              <span class="visually-hidden">Избранное.</span>
-              <!-- favorites-count для количества в избранном -->
-              <span class="favorites-count">&nbsp;</span>
+            <a class="button button-basket" href="#">
+              <span class="visually-hidden">Корзина.</span>
+              <!-- basket-count для количества в избранном -->
+              <span class="basket-count">&nbsp;</span>
             </a>
           </li>
-            <li class="navigation-item">
-              <a class="button button-basket" href="#">
-                <span class="visually-hidden">Корзина.</span>
-                <!-- basket-count для количества в избранном -->
-                <span class="basket-count">&nbsp;</span>
-              </a>
-            </li>
-          <li class="navigation-item">
-            <a class="button button-nav button-secondary button-order" href="#">Оформить заказ</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+        <li class="navigation-item">
+          <a class="button button-nav button-secondary button-order" href="#">Оформить заказ</a>
+        </li>
+      </ul>
+    </nav>
+
   </header>
   <main class="index-main">
     <section class="store">
