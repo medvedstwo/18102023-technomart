@@ -391,3 +391,14 @@ body {
 .button-about-us {
   padding: 14px 45px 13px;
 }
+
+/* footer */
+
+.main-footer {
+  color: #ffffff;
+  background-color: #32425c;
+}
+
+.footer-wrapper_dark {
+  background-color: #293449;
+}
