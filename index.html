@@ -93,7 +93,6 @@
         </li>
       </ul>
     </nav>
-
   </header>
   <main class="index-main">
     <section class="store">
@@ -102,15 +101,15 @@
         <ul class="list store-list">
           <!-- .store-item_new для плашки NEW -->
           <li class="store-item store-item_yellow store-item_new">
-            <h3 class="title store-item-title">Материалы</h3>
+            <h3 class="title title-m store-item-title">Материалы</h3>
             <a class="button button-nav button-store-list text-s" href="#">На любой вкус</a>
           </li>
           <li class="store-item store-item_blue">
-            <h3 class="title store-item-title">Инструмент</h3>
+            <h3 class="title title-m store-item-title">Инструмент</h3>
             <a class="button button-nav button-store-list text-s" href="#">На все случаи</a>
           </li>
           <li class="store-item store-item_lilac">
-            <h3 class="title store-item-title">Техника</h3>
+            <h3 class="title title-m store-item-title">Техника</h3>
             <a class="button button-nav button-store-list text-s" href="#">Для стройки</a>
           </li>
           <li class="store-item store-item-slider">
@@ -157,11 +156,11 @@
             </ol>
           </li>
           <li class="store-item store-item_green">
-            <h3 class="title store-item-title">Скидки 50%</h3>
+            <h3 class="title title-m store-item-title">Скидки 50%</h3>
             <a class="button button-nav button-store-list text-s" href="#">На 350 товаров</a>
           </li>
           <li class="store-item store-item_yellow">
-            <h3 class="title store-item-title">Доставка</h3>
+            <h3 class="title title-m store-item-title">Доставка</h3>
             <a class="button button-nav button-store-list text-s" href="#">Бесплатно</a>
           </li>
         </ul>
@@ -172,7 +171,7 @@
         <h2 class="title title-l products-title">Перфораторы</h2>
         <form class="products-filter" action="https://echo.htmlacademy.ru/" method="get">
           <fieldset class="filters-fieldset form-range-bar">
-            <legend class="text-l text-bold form-range-bar_title">Цена</legend>
+            <legend class="title text-l text-bold form-range-bar_title">Цена</legend>
             <div class="range-wrapper filters-background">
               <div class="range-scale">
                 <div class="range-bar">
@@ -185,7 +184,7 @@
                 </div>
               </div>
             </div>
-            <ul class="catalog-range-list">
+            <ul class="list catalog-range-list">
               <li class="catalog-range-item">
                 <label class="price">
                   <input class="price-min" type="number" name="price-min" min="0" max="9999" value="0">
@@ -201,7 +200,7 @@
             </ul>
           </fieldset>
           <fieldset class="filters-fieldset form-checkbox">
-            <legend class="text-l text-bold form-range-bar_title">Производители</legend>
+            <legend class="title text-l text-bold form-checkbox_title">Производители</legend>
             <ul class="list checkbox-list text-s">
               <li class="checkbox-item">
                 <label class="checkbox-label">
@@ -241,7 +240,7 @@
             </ul>
           </fieldset>
           <fieldset class="filters-fieldset form-radio">
-            <legend class="text-l text-bold form-range-bar_title">Питание</legend>
+            <legend class="title text-l text-bold form-radio_title">Питание</legend>
             <ul class="list checkbox-list text-s">
               <li class="radio-item">
                 <label class="radio-label">
@@ -259,6 +258,7 @@
               </li>
             </ul>
           </fieldset>
+          <button class="button button-nav button-tertiary button-filters-submit text-s" type="submit">Показать</button>
         </form>
         <div class="catalog-products-wrapper">
           <select class="products-sorting text-l" aria-label="Сортировка.">
