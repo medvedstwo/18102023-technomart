@@ -1046,6 +1046,7 @@ body {
 .form-subscribe {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   width: 260px;
   flex-wrap: wrap;
 }
@@ -1063,4 +1064,29 @@ body {
 .footer-feedback-link,
 .footer-copyright-link {
   color: #ffd180;
+}
+
+.input-subscribe {
+  width: 220px;
+  padding: 12px 16px 10px;
+  font-size: 14px;
+  line-height: 18px;
+  border: 1px solid #63a63e;
+  border-radius: 2px;
+}
+
+.input-subscribe::placeholder {
+  font-size: 14px;
+  line-height: 18px;
+  color: #bdbdbd;
+}
+
+.button-subscribe {
+  width: 40px;
+  height: 40px;
+  background-color: #63a63e;
+  background-image: url("../images/control/basket-white.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 2px;
 }
