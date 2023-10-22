@@ -754,17 +754,30 @@ body {
   background-position: center;
 }
 
-.checkbox-input-hidden[type="checkbox"]:checked + .checkbox-input::before {
-  content: "";
+.checkbox-input-hidden[type="checkbox"]:checked + .checkbox-input {
+  background-image: url("../images/control/checkbox-on.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.radio-input {
   position: absolute;
   top: 50%;
   left: 0;
   transform: translateY(-50%);
-  width: 21px;
-  height: 21px;
-  background-image: url("../images/control/checkbox-on.svg");
+  width: 22px;
+  height: 22px;
+  background-image: url("../images/control/radio-off.svg");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: contain;
+}
+
+.radio-input-hidden[type="radio"]:checked + .radio-input {
+  background-image: url("../images/control/radio-on.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 .button-filters-submit {
