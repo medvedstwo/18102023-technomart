@@ -625,6 +625,7 @@ body {
 }
 
 .filters-background {
+  margin-bottom: 7px;
   padding: 19px 20px;
   background-color: #f7f3ec;
   border-radius: 2px;
@@ -661,6 +662,31 @@ body {
 
 .button-range-max {
   left: 65px;
+}
+
+.price-wrapper {
+  width: 95px;
+  padding: 11px 0;
+  font-family: "PT Sans", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: #293449;
+  text-align: center;
+  background-color: #f7f3ec;
+  border: none;
+  border-radius: 2px;
+  appearance: textfield;
+}
+
+.price-wrapper::-webkit-outer-spin-button,
+.price-wrapper::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+.catalog-range-list {
+  display: flex;
+  justify-content: space-between;
 }
 
 .form-range-bar {
