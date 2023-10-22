@@ -24,7 +24,9 @@
       <form class="form form-search" action="https://echo.htmlacademy.ru/" method="get">
         <button class="button button-search" type="submit">
           <span class="visually-hidden">Найти.</span>
-          <!-- svg Для кнопки -->
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M8 16a8 8 0 1 1 6.32-3.1l5.39 5.4-1.42 1.4-5.38-5.38A7.97 7.97 0 0 1 8 16Zm6-8A6 6 0 1 1 2 8a6 6 0 0 1 12 0Z" fill="#fff"/>
+          </svg>
         </button>
         <label class="form-search-label">
           <input class="input input-form-search text-m" type="search" name="search" placeholder="Поиск:">
@@ -40,10 +42,7 @@
           </a>
         </li>
         <li class="entry-item entry-personal-area-item">
-          <a class="link button-nav entry-link" href="#">
-            <!-- svg -->
-            Войти
-          </a>
+          <a class="link button-nav entry-link" href="#">Войти</a>
         </li>
       </ul>
     </div>
@@ -74,21 +73,20 @@
         </li>
       </ul>
       <ul class="list navigation-list">
-        <li class="navigation-item">
-          <a class="button button-favorites" href="#">
+        <li class="navigation-item_personal-area">
+          <a class="button button-favorites button_personal-area" href="#">
             <span class="visually-hidden">Избранное.</span>
             <!-- favorites-count для количества в избранном -->
-            <span class="favorites-count">&nbsp;</span>
+            <span class="favorites-count">12</span>
           </a>
         </li>
-          <li class="navigation-item">
-            <a class="button button-basket" href="#">
+          <li class="navigation-item_personal-area">
+            <a class="button button-basket button_personal-area" href="#">
               <span class="visually-hidden">Корзина.</span>
-              <!-- basket-count для количества в избранном -->
-              <span class="basket-count">&nbsp;</span>
+              <span class="basket-count">3</span>
             </a>
           </li>
-        <li class="navigation-item">
+        <li class="navigation-item_personal-area">
           <a class="button button-nav button-secondary button-order" href="#">Оформить заказ</a>
         </li>
       </ul>
