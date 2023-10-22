@@ -216,7 +216,20 @@ body {
 }
 
 .header-phone-link {
+  position: relative;
+  padding-left: 24px;
   line-height: 18px;
+}
+
+.header-phone-link::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  background-image: url("../images/control/phone.svg");
 }
 
 .link-logo {
@@ -275,6 +288,10 @@ body {
 
 .button-order {
   padding: 12px 10px;
+}
+
+.hidden {
+  display: none;
 }
 
 /* store */
