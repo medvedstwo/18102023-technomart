@@ -427,6 +427,7 @@ body {
   font-size: 14px;
   line-height: 18px;
   font-weight: 700;
+  color: #ffffff;
   letter-spacing: 2px;
   background-color: #ee3643;
 
@@ -791,6 +792,7 @@ body {
 
 .products-sorting {
   width: 280px;
+  margin-bottom: 31px;
   padding: 8px 0 8px 16px;
   font-family: "PT Sans", sans-serif;
   background-image: url("../images/control/arrow-down-selector.svg");
@@ -817,6 +819,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 27px 27px 23px;
+  overflow: hidden;
 }
 
 .products-cards-title {
@@ -923,7 +926,7 @@ body {
 }
 
 .services-item {
-  padding: 160px 35px 74px 31px;
+  padding: 160px 31px 50px;
   background-color: #ffffff;
   border-radius: 2px;
   box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.15);
@@ -954,6 +957,7 @@ body {
 
 .services-item-description {
   margin: 0;
+  color: #000000;
 }
 
 /* index-wrapper */
@@ -981,9 +985,11 @@ body {
 }
 
 .button-about-us {
-  padding: 14px 45px 13px;
+  padding: 14px 0 13px;
+  width: 195px;
   font-size: 14px;
   line-height: 18px;
+  text-align: center;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
