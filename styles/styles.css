@@ -624,6 +624,45 @@ body {
   border: none;
 }
 
+.filters-background {
+  padding: 19px 20px;
+  background-color: #f7f3ec;
+  border-radius: 2px;
+}
+
+.range-scale {
+  position: relative;
+  width: 180px;
+  height: 2px;
+  background-color: #3d546f;
+}
+
+.range-bar {
+  position: absolute;
+  width: 65px;
+  height: 2px;
+  background-color: #5fbb2d;
+}
+
+.button-range {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background-color: #ffffff;
+  border: 2px solid #3d546f;
+  border-radius: 50%;
+}
+
+.button-range-min {
+  left: 0;
+}
+
+.button-range-max {
+  left: 65px;
+}
+
 .form-range-bar {
   margin-bottom: 40px;
 }
