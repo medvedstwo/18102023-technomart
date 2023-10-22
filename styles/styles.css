@@ -600,6 +600,10 @@ body {
 
 .button-about-us {
   padding: 14px 45px 13px;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 /* footer */
