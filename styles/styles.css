@@ -818,6 +818,19 @@ body {
   background-image: url("../images/control/checkbox-on-hover.svg");
 }
 
+.checkbox-input-hidden[type="checkbox"]:disabled + .filters-text,
+.radio-input-hidden[type="radio"]:disabled + .filters-text {
+  opacity: 0.4;
+}
+
+.checkbox-input-hidden[type="checkbox"]:disabled + .checkbox-input {
+  background-image: url("../images/control/checkbox-off-disabled.svg");
+}
+
+.checkbox-input-hidden[type="checkbox"]:checked:disabled + .checkbox-input {
+  background-image: url("../images/control/checkbox-on-disabled.svg");
+}
+
 .radio-input {
   position: absolute;
   top: 50%;
