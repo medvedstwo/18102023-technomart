@@ -583,7 +583,23 @@ body {
 
 .slider-pagination-list {
   position: absolute;
-  bottom: 10px;
+  bottom: 15px;
+  left: 50%;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.slider-pagination-link {
+  display: block;
+  width: 8px;
+  height: 8px;
+  background-color: #ffd180;
+  border-radius: 50%;
+}
+
+.slider-pagination-link_current {
+  background-color: #ffffff;
 }
 
 /* products */
