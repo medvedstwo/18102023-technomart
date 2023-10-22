@@ -338,6 +338,17 @@ body {
   color: #ffffff;
 }
 
+.navigation-link:hover {
+  color: #c5c5c5;
+  background-color: #32425c;
+}
+
+.navigation-link:active {
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #32425c;
+}
+
 .navigation-item:not(:last-child):not(:last-child) {
   margin-right: 37px;
 }
