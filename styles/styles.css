@@ -91,6 +91,14 @@ body {
   border-radius: 4px;
 }
 
+.button-primary:hover {
+  background-color: #ca2c37;
+}
+
+.button-primary:active {
+  background-color: #ba2732;
+}
+
 .button-secondary {
   background-color: #63a63e;
   border-radius: 4px;
@@ -548,6 +556,14 @@ body {
   border: 1px solid #ffffff;
 }
 
+.button-store-list:hover {
+  opacity: 0.6;
+}
+
+.button-store-list:active {
+  opacity: 0.3;
+}
+
 .button-store-list::before {
   content: "";
   position: absolute;
@@ -568,6 +584,14 @@ body {
   height: 50px;
   background-color: rgba(41, 52, 73, 0.6);
   border-radius: 50%;
+}
+
+.button-slider:hover {
+  opacity: 0.6;
+}
+
+.button-slider:active {
+  opacity: 0.3;
 }
 
 .button-slider_prev {
@@ -671,6 +695,15 @@ body {
   border: 2px solid #3d546f;
   border-radius: 50%;
 }
+
+.button-range:hover {
+  background-color: #518534;
+}
+
+.button-range:active {
+  background-color: #5fbb2d;
+}
+
 
 .button-range-min {
   left: 0;
