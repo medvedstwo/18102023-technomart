@@ -726,7 +726,45 @@ body {
 }
 
 .filters-text {
+  margin-left: 36px;
   color: #000000;
+}
+
+.checkbox-list {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+
+.checkbox-label,
+.radio-label {
+  position: relative;
+  display: block;
+}
+
+.checkbox-input {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 21px;
+  height: 21px;
+  background-image: url("../images/control/checkbox-off.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.checkbox-input-hidden[type="checkbox"]:checked + .checkbox-input::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 21px;
+  height: 21px;
+  background-image: url("../images/control/checkbox-on.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .button-filters-submit {
