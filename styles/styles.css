@@ -785,12 +785,20 @@ body {
   border: 2px solid #3d546f;
 }
 
+.catalog-products-wrapper {
+  padding-top: 33px;
+}
+
 .products-sorting {
   width: 280px;
   padding: 8px 0 8px 16px;
   font-family: "PT Sans", sans-serif;
+  background-image: url("../images/control/arrow-down-selector.svg");
+  background-repeat: no-repeat;
+  background-position: center right 17px;
   border-radius: 2px;
   border: 1px solid #3d546f;
+  appearance: none;
 }
 
 .products-cards-list {
