@@ -936,6 +936,14 @@ body {
   background-color: #ee3643;
 }
 
+.button-buy:hover {
+  background-color: #ca2c37;
+}
+
+.button-buy:active {
+  background-color: #ba2732;
+}
+
 .products-pagination-list {
   display: flex;
   justify-content: center;
@@ -1171,4 +1179,12 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 2px;
+}
+
+.button-subscribe:hover {
+  background-color: #5fbb2d;
+}
+
+.button-subscribe:active {
+  background-color: #518534;
 }
