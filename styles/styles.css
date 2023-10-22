@@ -401,11 +401,35 @@ body {
   grid-template-rows: repeat(3, auto);
   gap: 27px 30px;
   margin: 0 auto;
+  color: #ffffff;
 }
 
 .store-item {
   padding: 20px 37px 33px 25px;
-  color: #ffffff;
+  overflow: hidden;
+}
+
+.store-item_new {
+  position: relative;
+}
+
+.store-item_new::before {
+  content: "NEW";
+  position: absolute;
+  top: 10px;
+  right: -25px;
+  transform: rotate(45deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 30px;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  background-color: #ee3643;
+
 }
 
 .store-item_yellow {
@@ -422,6 +446,36 @@ body {
 
 .store-item_green {
   background-color: #8ed78f;
+}
+
+.store-item_materials {
+  background-image: url("../images/icons/materials-white.svg");
+  background-repeat: no-repeat;
+  background-position: right 37px center;
+}
+
+.store-item_tools {
+  background-image: url("../images/icons/tools-white.svg");
+  background-repeat: no-repeat;
+  background-position: right 37px center;
+}
+
+.store-item_technique {
+  background-image: url("../images/icons/technique-white.svg");
+  background-repeat: no-repeat;
+  background-position: right 37px center;
+}
+
+.store-item_discount {
+  background-image: url("../images/icons/discount-white.svg");
+  background-repeat: no-repeat;
+  background-position: right 37px center;
+}
+
+.store-item_delivery {
+  background-image: url("../images/icons/delivery-white.svg");
+  background-repeat: no-repeat;
+  background-position: right 37px center;
 }
 
 .store-item-slider {
@@ -449,7 +503,7 @@ body {
 }
 
 .slider-item {
-  padding: 20px 20px 40px 50px;
+  padding: 50px 20px 40px 50px;
 }
 
 .slider-item-drills {
@@ -469,11 +523,23 @@ body {
 }
 
 .button-store-list {
+  position: relative;
   display: inline-block;
   padding: 11px 12px 11px 28px;
   width: 180px;
   letter-spacing: 1px;
   border: 1px solid #ffffff;
+}
+
+.button-store-list::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  background-image: url("../images/control/arrow-right-white.svg");
 }
 
 .slider-item .button-primary {
