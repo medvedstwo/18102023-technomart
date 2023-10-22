@@ -791,6 +791,7 @@ body {
   display: block;
 }
 
+
 .checkbox-input {
   position: absolute;
   top: 50%;
@@ -807,6 +808,14 @@ body {
   background-image: url("../images/control/checkbox-on.svg");
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.checkbox-label:hover .checkbox-input {
+  background-image: url("../images/control/checkbox-off-hover.svg");
+}
+
+.checkbox-input-hidden[type="checkbox"]:checked:hover + .checkbox-input {
+  background-image: url("../images/control/checkbox-on-hover.svg");
 }
 
 .radio-input {
