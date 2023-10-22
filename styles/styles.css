@@ -689,6 +689,21 @@ body {
   justify-content: space-between;
 }
 
+.catalog-range-item {
+  position: relative;
+}
+
+.catalog-range-item:first-child::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -19px;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 1px;
+  background-color: #293449;
+}
+
 .form-range-bar {
   margin-bottom: 40px;
 }
