@@ -831,6 +831,10 @@ body {
   letter-spacing: 2px;
 }
 
+.products-old-price_hidden {
+  visibility: hidden;
+}
+
 .button-buy {
   display: flex;
   justify-content: center;
@@ -923,6 +927,24 @@ body {
   background-color: #ffffff;
   border-radius: 2px;
   box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+.services-item_delivery {
+  background-image: url("../images/icons/delivery-red.svg");
+  background-repeat: no-repeat;
+  background-position: top 40px left 31px;
+}
+
+.services-item_discount {
+  background-image: url("../images/icons/discount-red.svg");
+  background-repeat: no-repeat;
+  background-position: top 40px left 31px;
+}
+
+.services-item_materials {
+  background-image: url("../images/icons/materials-red.svg");
+  background-repeat: no-repeat;
+  background-position: top 40px left 31px;
 }
 
 .services-item-title {
