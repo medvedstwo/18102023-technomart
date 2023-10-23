@@ -333,6 +333,10 @@ body {
   color: #f1f5f7;
 }
 
+.entry-link_unauthorized {
+  padding-left: 26px;
+}
+
 .entry-link-personal-area {
   position: relative;
   padding-left: 24px;
@@ -726,7 +730,7 @@ body {
 
 .range-bar {
   position: absolute;
-  width: 65px;
+  width: 75px;
   height: 2px;
   background-color: #5fbb2d;
 }
