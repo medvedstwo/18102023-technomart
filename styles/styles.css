@@ -298,6 +298,14 @@ body {
   display: none;
 }
 
+.authorized .navigation-list_authorized {
+  display: flex;
+}
+
+.authorized .navigation-list_unauthorized {
+  display: none;
+}
+
 .authorized .entry-list_authorized {
   display: flex;
 }
@@ -411,18 +419,14 @@ body {
   height: 42px;
 }
 
-.navigation-item_personal-area:first-child {
-  margin-right: 23px;
-}
-
-.navigation-item_personal-area:last-child {
-  margin-left: 26px;
-}
-
 .button_personal-area {
   display: flex;
   align-items: center;
   gap: 6px;
+}
+
+.navigation-list_authorized {
+  display: none;
 }
 
 .hidden {
