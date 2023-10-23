@@ -439,6 +439,15 @@ body {
 
 .navigation-list_authorized {
   display: none;
+  margin-top: -8px;
+}
+
+.navigation-list_authorized .navigation-item_personal-area:not(:last-child) {
+  margin-right: 20px;
+}
+
+.navigation-list_authorized .navigation-item_personal-area:first-child {
+  margin-right: 23px;
 }
 
 .hidden {
