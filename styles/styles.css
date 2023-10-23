@@ -743,7 +743,7 @@ body {
 }
 
 .button-range-max {
-  left: 65px;
+  left: 70px;
 }
 
 .price-wrapper {
@@ -791,20 +791,20 @@ body {
 }
 
 .form-range-bar_title {
-  margin-bottom: 8px;
+  margin: 0 0 8px -1px;
 }
 
 .form-checkbox,
 .form-radio {
-  margin-bottom: 45px;
+  margin-bottom: 46px;
 }
 
 .form-checkbox_title {
-  margin-bottom: 16px;
+  margin: 0 0 17px -1px;
 }
 
 .form-radio_title {
-  margin-bottom: 18px;
+  margin: 3px 0 21px 3px;
 }
 
 .filters-text {
@@ -815,7 +815,14 @@ body {
 .checkbox-list {
   display: flex;
   flex-direction: column;
-  gap: 19px;
+  gap: 22px;
+}
+
+.radio-list {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  margin-left: 5px;
 }
 
 .checkbox-label,
@@ -890,6 +897,7 @@ body {
 
 .button-filters-submit {
   width: 220px;
+  padding: 12px 65px 11px 66px;
   border: 2px solid #3d546f;
 }
 
