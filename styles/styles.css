@@ -686,6 +686,7 @@ body {
 }
 
 .products-title {
+  font-family: "Fira Sans";
   grid-column: 1/-1;
   margin-bottom: 26px;
 }
