@@ -468,10 +468,10 @@ body {
 }
 
 .store-item_new::before {
-  content: "NEW";
+  content: "New";
   position: absolute;
-  top: 10px;
-  right: -25px;
+  top: 8px;
+  right: -27px;
   transform: rotate(45deg);
   z-index: 2;
   display: flex;
@@ -483,9 +483,9 @@ body {
   line-height: 18px;
   font-weight: 700;
   color: #ffffff;
+  text-transform: uppercase;
   letter-spacing: 2px;
   background-color: #ee3643;
-
 }
 
 .store-item_yellow {
@@ -507,31 +507,31 @@ body {
 .store-item_materials {
   background-image: url("../images/icons/materials-white.svg");
   background-repeat: no-repeat;
-  background-position: right 37px center;
+  background-position: right 43px center;
 }
 
 .store-item_tools {
   background-image: url("../images/icons/tools-white.svg");
   background-repeat: no-repeat;
-  background-position: right 37px center;
+  background-position: right 38px top 54px;
 }
 
 .store-item_technique {
   background-image: url("../images/icons/technique-white.svg");
   background-repeat: no-repeat;
-  background-position: right 37px center;
+  background-position: right 38px top 54px;
 }
 
 .store-item_discount {
   background-image: url("../images/icons/discount-white.svg");
   background-repeat: no-repeat;
-  background-position: right 37px center;
+  background-position: right 38px top 54px;
 }
 
 .store-item_delivery {
   background-image: url("../images/icons/delivery-white.svg");
   background-repeat: no-repeat;
-  background-position: right 37px center;
+  background-position: right 37px top 46px;
 }
 
 .store-item-slider {
@@ -582,9 +582,9 @@ body {
 .button-store-list {
   position: relative;
   display: inline-block;
-  padding: 11px 12px 11px 28px;
+  padding: 11px 12px 9px 28px;
   width: 180px;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   border: 1px solid #ffffff;
 }
 
@@ -627,18 +627,18 @@ body {
 }
 
 .button-slider_prev {
-  top: 50%;
-  left: 25px;
+  top: 46%;
+  left: 20px;
   transform: rotate(180deg);
-  background-image: url("../images/control/arrow-right-white.svg");
+  background-image: url("../images/control/arrow-right-big.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .button-slider_next {
-  top: 50%;
-  right: 25px;
-  background-image: url("../images/control/arrow-right-white.svg");
+  top: 46%;
+  right: 20px;
+  background-image: url("../images/control/arrow-right-big.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
