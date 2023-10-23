@@ -465,6 +465,7 @@ body {
   top: 10px;
   right: -25px;
   transform: rotate(45deg);
+  z-index: 2;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -933,7 +934,7 @@ body {
   top: 35px;
   left: 50%;
   transform: translateX(-50%);
-  display: flex;
+  display: none;
   flex-direction: column;
   gap: 11px;
   padding: 27px 40px 62px;
@@ -943,6 +944,38 @@ body {
 .products-cards-item:hover {
   box-shadow: 0 4px 13px rgba(0, 0, 0, 0.25);
   transition: ease 0.5s;
+}
+
+.products-cards-item:hover .products-cards-item_hover {
+  display: flex;
+}
+
+.products-cards-item_button-buy {
+  position: relative;
+  padding: 11px 23px 11px 41px;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  background-color: #63a63e;
+  border-radius: 2px;
+}
+
+.products-cards-item_button-favorites {
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.products-cards-item_button-buy::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 23px;
+  transform: translateY(-50%);
+  width: 14px;
+  height: 14px;
+  background-image: url("../images/control/basket-white-small.svg");
 }
 
 .products-cards-title {
