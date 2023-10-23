@@ -202,11 +202,12 @@ body {
   align-items: center;
   width: 1170px;
   margin: 0 auto;
+  padding-right: 3px;
 }
 
 .header-description {
   width: 580px;
-  margin: 13px 0;
+  margin: 13px 0 13px 2px;
   font-style: italic;
   font-weight: 400;
   color: #ee3643;
@@ -219,7 +220,7 @@ body {
 }
 
 .header-address-description {
-  margin: 0;
+  margin: -2px 2px 0 0;
   font-style: normal;
   color: #32425c;
 }
