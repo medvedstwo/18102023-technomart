@@ -265,7 +265,7 @@ body {
 
 .input-form-search {
   width: 716px;
-  padding: 11px 0 10px 49px;
+  padding: 11px 0 10px 53px;
   color: #293449;
   background-color: #293449;
   border: none;
@@ -301,6 +301,10 @@ body {
 
 .authorized .navigation-list_authorized {
   display: flex;
+}
+
+.navigation-list_unauthorized {
+  margin-top: -8px;
 }
 
 .authorized .navigation-list_unauthorized {
@@ -404,13 +408,16 @@ body {
 }
 
 .navigation-item:not(:last-child):not(:last-child) {
-  margin-right: 37px;
+  margin-right: 38px;
 }
 
 .button-order {
-  padding: 12px 10px;
+  min-width: 170px;
+  margin-right: 3px;
+  padding: 12px 10px 12px 13px;
   font-size: 14px;
   line-height: 18px;
+  letter-spacing: 2px;
 }
 
 .navigation-item_personal-area {
