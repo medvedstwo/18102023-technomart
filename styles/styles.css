@@ -920,6 +920,7 @@ body {
 }
 
 .products-cards-item {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -927,8 +928,21 @@ body {
   overflow: hidden;
 }
 
+.products-cards-item_hover {
+  position: absolute;
+  top: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  padding: 27px 40px 62px;
+  background-color: rgba(255, 255, 255, 0.90);
+}
+
 .products-cards-item:hover {
   box-shadow: 0 4px 13px rgba(0, 0, 0, 0.25);
+  transition: ease 0.5s;
 }
 
 .products-cards-title {
