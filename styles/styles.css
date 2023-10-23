@@ -959,7 +959,7 @@ body {
   display: none;
   flex-direction: column;
   gap: 11px;
-  padding: 27px 40px 62px;
+  padding: 27px 40px 62px 33px;
   background-color: rgba(255, 255, 255, 0.90);
 }
 
@@ -974,7 +974,8 @@ body {
 
 .products-cards-item_button-buy {
   position: relative;
-  padding: 11px 23px 11px 41px;
+  width: 135px;
+  padding: 11px 23px 11px 46px;
   font-size: 14px;
   line-height: 18px;
   letter-spacing: 2px;
@@ -983,6 +984,7 @@ body {
 }
 
 .products-cards-item_button-favorites {
+  padding: 9px 0;
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
