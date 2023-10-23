@@ -1158,7 +1158,7 @@ body {
   justify-content: space-between;
   width: 1170px;
   margin: 0 auto;
-  padding: 52px 0 49px;
+  padding: 52px 0 43px;
 }
 
 .about-us {
@@ -1191,6 +1191,14 @@ body {
   border-radius: 2px;
 }
 
+.contacts-link {
+  display: block;
+}
+
+.contacts-description {
+  margin-bottom: 30px;
+
+}
 /* footer */
 
 .main-footer_semi-dark {
@@ -1212,12 +1220,12 @@ body {
 
 .footer-logo-link {
   display: inline-block;
-  margin-bottom: 21px;
+  margin-bottom: 15px;
 }
 
 .footer-address-description {
   font-style: normal;
-  margin: 0 0 21px;
+  margin: 0 0 1px;
 }
 
 .footer-phone-link {
@@ -1237,7 +1245,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: end;
-  padding-top: 21px;
+  padding-top: 15px;
 }
 
 .form-subscribe {
@@ -1294,4 +1302,8 @@ body {
 
 .button-subscribe:active {
   background-color: #518534;
+}
+
+.footer-feedback-description {
+  margin: 0;
 }
