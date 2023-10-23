@@ -815,6 +815,10 @@ body {
   display: block;
 }
 
+.checkbox-label:hover,
+.radio-label:hover {
+  cursor: pointer;
+}
 
 .checkbox-input {
   position: absolute;
@@ -899,6 +903,7 @@ body {
 
 .products-sorting:hover {
   border: 1px solid #63a63e;
+  cursor: pointer;
 }
 
 .products-sorting:focus {
