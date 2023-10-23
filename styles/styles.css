@@ -897,7 +897,7 @@ body {
 
 .button-filters-submit {
   width: 220px;
-  padding: 12px 65px 11px 66px;
+  padding: 12px 65px 6px 66px;
   border: 2px solid #3d546f;
 }
 
@@ -1006,7 +1006,7 @@ body {
 }
 
 .products-old-price {
-  margin-bottom: 11px;
+  margin-bottom: 15px;
   font-weight: 700;
   color: #a9a9a9;
   letter-spacing: 2px;
@@ -1018,10 +1018,9 @@ body {
 
 .button-buy {
   display: flex;
-  justify-content: center;
   align-items: center;
   width: 138px;
-  padding: 11px 0;
+  padding: 11px 0 11px 28px;
   font-size: 14px;
   line-height: 18px;
   letter-spacing: 2px;
@@ -1044,6 +1043,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 4px;
 }
 
 .products-pagination-item:not(:last-child) {
@@ -1064,6 +1064,7 @@ body {
   line-height: 18px;
   text-transform: uppercase;
   letter-spacing: 2px;
+  border-radius: 2px;
 }
 
 .products-pagination-link {
