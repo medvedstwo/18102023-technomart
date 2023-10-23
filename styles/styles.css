@@ -288,12 +288,31 @@ body {
   color: #c5c5c5;
 }
 
-
 .entry-list {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.authorized .entry-list_unauthorized {
+  display: none;
+}
+
+.authorized .entry-list_authorized {
   display: flex;
 }
 
-.entry-link {
+.entry-list_unauthorized {
+
+  width: 200px;
+}
+
+.entry-list_authorized {
+  display: none;
+}
+
+.entry-link,
+.exit-link {
   position: relative;
   padding-left: 28px;
   font-size: 14px;
@@ -301,11 +320,22 @@ body {
   color: #f1f5f7;
 }
 
-.entry-personal-area-link {
+.entry-link-personal-area {
   position: relative;
-  font-size: 14px;
-  line-height: 18px;
-  color: #f1f5f7;
+  padding-left: 24px;
+  color: #ffffff;
+}
+
+.entry-link-personal-area::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  transform: translateY(-50%);
+  background-image: url("../images/control/user.svg");
+
 }
 
 .entry-link::before {
@@ -317,6 +347,21 @@ body {
   height: 16px;
   transform: translateY(-50%);
   background-image: url("../images/control/login.svg");
+}
+
+.exit-link::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  transform: translateY(-50%) rotate(180deg);
+  background-image: url("../images/control/login.svg");
+}
+
+.entry-personal-area-item_authorized:not(:first-child) {
+  margin-left: 10px;
 }
 
 .header-navigation {
@@ -372,43 +417,6 @@ body {
 
 .navigation-item_personal-area:last-child {
   margin-left: 26px;
-}
-
-.button-favorites,
-.button-basket {
-  position: relative;
-}
-
-.favorites-count {
-  display: none;
-  margin-left: 26px;
-}
-
-.basket-count {
-  display: none;
-  margin-left: 24px;
-}
-
-.button-favorites::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-  width: 18px;
-  height: 18px;
-  background-image: url("../images/control/bookmark.svg");
-}
-
-.button-basket::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-  width: 18px;
-  height: 18px;
-  background-image: url("../images/control/basket.svg");
 }
 
 .button_personal-area {
