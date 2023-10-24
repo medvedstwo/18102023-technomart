@@ -674,6 +674,10 @@ outline: 1PX solid #ffbf47;
   background-image: url("../images/control/checkbox-on-hover.svg");
 }
 
+.checkbox-remember-input-hidden:focus-visible + .checkbox-remember-input {
+  outline: 2px solid #ffbf47;
+}
+
 .forgot-password-link {
   margin-top: 5px;
   font-size: 14px;
