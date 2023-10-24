@@ -426,7 +426,6 @@ body {
   height: 16px;
   transform: translateY(-50%);
   background-image: url("../images/control/user.svg");
-
 }
 
 .entry-link::before {
@@ -594,7 +593,6 @@ body {
 .form-autorization-login,
 .form-autorization-password {
   grid-column: 1/-1;
-
 }
 
 .input-autorization {
@@ -625,12 +623,12 @@ body {
 }
 
 .input-autorization:hover {
-border-color: #63a63e;
+  border-color: #63a63e;
 }
 
 .input-autorization:focus {
-border-color: #63a63e;
-outline: 1PX solid #ffbf47;
+  border-color: #63a63e;
+  outline: 1px solid #ffbf47;
 }
 
 .input-login {
@@ -644,6 +642,10 @@ outline: 1PX solid #ffbf47;
 .forgot-password-link {
   grid-column: 2/-1;
   margin: 4px 0 0 12px;
+  margin-top: 5px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
 }
 
 .remember-text {
@@ -661,7 +663,7 @@ outline: 1PX solid #ffbf47;
 .checkbox-remember-input {
   position: absolute;
   top: 50%;
-  left: 0px;
+  left: 0;
   transform: translateY(-50%);
   width: 21px;
   height: 21px;
@@ -686,13 +688,6 @@ outline: 1PX solid #ffbf47;
 
 .checkbox-remember-input-hidden:focus-visible + .checkbox-remember-input {
   outline: 2px solid #ffbf47;
-}
-
-.forgot-password-link {
-  margin-top: 5px;
-  font-size: 14px;
-  line-height: 18px;
-  color: #000000;
 }
 
 .button-login {
@@ -1002,7 +997,7 @@ outline: 1PX solid #ffbf47;
 }
 
 .products-title {
-  font-family: "Fira Sans";
+  font-family: "Fira Sans", sans-serif;
   grid-column: 1/-1;
   margin-bottom: 26px;
 }
@@ -1290,7 +1285,7 @@ outline: 1PX solid #ffbf47;
   flex-direction: column;
   gap: 11px;
   padding: 27px 40px 62px 33px;
-  background-color: rgba(255, 255, 255, 0.90);
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .products-cards-item:hover {
@@ -1557,8 +1552,8 @@ outline: 1PX solid #ffbf47;
 
 .contacts-description {
   margin-bottom: 30px;
-
 }
+
 /* footer */
 
 .main-footer_semi-dark {
