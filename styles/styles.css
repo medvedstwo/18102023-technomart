@@ -360,10 +360,15 @@ body {
 
 .authorized .navigation-list_authorized {
   display: flex;
+  justify-content: flex-end;
+  width: 330px;
 }
 
 .navigation-list_unauthorized {
+  justify-content: flex-end;
+  width: 330px;
   margin-top: -8px;
+  margin-left: auto;
 }
 
 .authorized .navigation-list_unauthorized {
@@ -464,7 +469,12 @@ body {
 
 .navigation-list {
   display: flex;
+  flex-wrap: wrap;
   padding: 0;
+}
+
+.navigation-list-menu {
+  width: 830px;
 }
 
 .navigation-link {
@@ -760,6 +770,9 @@ outline: 1PX solid #ffbf47;
 }
 
 .store-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   padding: 20px 37px 33px 25px;
   overflow: hidden;
 }
@@ -847,6 +860,7 @@ outline: 1PX solid #ffbf47;
 }
 
 .store-item-title {
+  width: 180px;
   margin-bottom: 57px;
 }
 
