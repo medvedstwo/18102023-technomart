@@ -266,7 +266,7 @@ body {
 .input-form-search {
   width: 716px;
   padding: 11px 0 10px 53px;
-  color: #293449;
+  color: #ffffff;
   background-color: #293449;
   border: none;
 }
@@ -276,6 +276,7 @@ body {
 }
 
 .input-form-search:focus {
+  color: #293449;
   background-color: #f1f5f7;
   outline: none;
 }
