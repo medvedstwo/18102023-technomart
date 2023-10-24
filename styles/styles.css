@@ -626,15 +626,15 @@ body {
 
 .title-welcome {
   color: #000000;
-  margin-bottom: 26px;
+  margin-bottom: 30px;
 }
 
 .popover-personal-area-list {
-  margin-bottom: 24px;
+  margin-bottom: 22px;
 }
 
 .popover-personal-area-item:not(:last-child) {
-  margin-bottom: 23px;
+  margin-bottom: 17px;
 }
 
 .popover-personal-area-link {
@@ -649,7 +649,7 @@ body {
 .button-exit {
   width: 145px;
   font-size: 14px;
-  line-height: 18px;
+  line-height: 14px;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
