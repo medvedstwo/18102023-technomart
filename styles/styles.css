@@ -559,6 +559,14 @@ body {
   background-position: center;
 }
 
+.button-close:hover {
+  opacity: 0.8;
+}
+
+.button-close:active {
+  opacity: 0.6;
+}
+
 .popover-entry {
   padding: 23px 29px 35px 31px;
 }
@@ -594,12 +602,25 @@ body {
   display: block;
 }
 
+.form-autorization-label:hover {
+  cursor: pointer;
+}
+
 .form-autorization-label:last-of-type {
   margin-bottom: 38px;
 }
 
 .input-autorization::placeholder {
   color: #cccccc;
+}
+
+.input-autorization:hover {
+border-color: #63a63e;
+}
+
+.input-autorization:focus {
+border-color: #63a63e;
+outline: 1PX solid #ffbf47;
 }
 
 .input-login {
@@ -646,7 +667,6 @@ body {
 }
 
 .form-autorization-label:hover .checkbox-remember-input {
-  margin: -1px 0 0 1px;
   background-image: url("../images/control/checkbox-off-hover.svg");
 }
 
