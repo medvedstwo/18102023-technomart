@@ -1068,7 +1068,8 @@ body {
   background-color: #f7f3ec;
   border: 1px solid transparent;
   border-radius: 2px;
-  appearance: textfield;
+  -webkit-appearance: textfield;
+          appearance: textfield;
 }
 
 .price-wrapper:hover {
@@ -1082,7 +1083,8 @@ body {
 
 .price-wrapper::-webkit-outer-spin-button,
 .price-wrapper::-webkit-inner-spin-button {
-  appearance: none;
+  -webkit-appearance: none;
+          appearance: none;
   margin: 0;
 }
 
@@ -1240,7 +1242,8 @@ body {
   background-position: center right 11px;
   border-radius: 2px;
   border: 1px solid #3d546f;
-  appearance: none;
+  -webkit-appearance: none;
+          appearance: none;
 }
 
 .products-sorting:hover {
