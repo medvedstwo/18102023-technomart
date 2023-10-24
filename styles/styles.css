@@ -104,6 +104,14 @@ body {
   border-radius: 4px;
 }
 
+.button-secondary:hover {
+  background-color: #5fbb2d;
+}
+
+.button-secondary:active {
+  background-color: #518534;
+}
+
 .button-tertiary {
   display: flex;
   justify-content: center;
@@ -113,6 +121,15 @@ body {
   background-color: #ffffff;
   border: 2px solid #63a63e;
   border-radius: 2px;
+}
+
+.button-tertiary:hover {
+  border-color: #3d546f;
+}
+
+.button-tertiary:active {
+  color: #c5c5c5;
+  border-color: #c5c5c5;
 }
 
 /* input */
@@ -231,6 +248,14 @@ body {
   line-height: 18px;
 }
 
+.header-phone-link:hover {
+  opacity: 0.6;
+}
+
+.header-phone-link:active {
+  opacity: 0.3;
+}
+
 .header-phone-link::before {
   content: "";
   position: absolute;
@@ -246,6 +271,14 @@ body {
   position: absolute;
   top: 0;
   z-index: 2;
+}
+
+.link-logo:hover {
+  opacity: 0.6;
+}
+
+.link-logo:active {
+  opacity: 0.3;
 }
 
 .form-search {
@@ -344,6 +377,16 @@ body {
   font-size: 14px;
   line-height: 18px;
   color: #f1f5f7;
+}
+
+.entry-link:hover,
+.exit-link:hover {
+  opacity: 0.6;
+}
+
+.entry-link:active,
+.exit-link:active {
+  opacity: 0.3;
 }
 
 .entry-link_unauthorized {
@@ -452,6 +495,14 @@ body {
   display: flex;
   align-items: center;
   gap: 6px;
+}
+
+.button_personal-area:hover {
+  opacity: 0.6;
+}
+
+.button_personal-area:active {
+  opacity: 0.3;
 }
 
 .navigation-list_authorized {
@@ -969,9 +1020,18 @@ body {
   color: #293449;
   text-align: center;
   background-color: #f7f3ec;
-  border: none;
+  border: 1px solid transparent;
   border-radius: 2px;
   appearance: textfield;
+}
+
+.price-wrapper:hover {
+  border-color: #63a63e;
+}
+
+.price-wrapper:focus {
+  border-color: #63a63e;
+  outline: 1px solid #ffbf47;
 }
 
 .price-wrapper::-webkit-outer-spin-button,
