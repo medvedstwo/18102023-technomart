@@ -20,8 +20,8 @@
   </header>
   <header class="index-header_dark">
     <!-- добавить div класс authorized, чтобы увидеть авторизацию -->
-    <div class="header-wrapper">
-      <a class="link-logo">
+    <div class="header-wrapper authorized">
+      <a class="link-logo" href="#">
         <img class="img-logo" src="images/logo/technomart-logo.svg" width="220" height="50" alt="Логотип Техномарт.">
       </a>
       <form class="form form-search" action="https://echo.htmlacademy.ru/" method="get" autocomplete="off">
@@ -35,6 +35,29 @@
       <ul class="list entry-list entry-list_unauthorized">
         <li class="entry-item entry-personal-area-item">
           <a class="link button-nav entry-link entry-link_unauthorized" href="#">Войти</a>
+          <!-- удалить класс hidden для отображения поповера -->
+          <div class="popover popover-entry hidden">
+            <h2 class="title title-m title-autorization">Личный кабинет</h2>
+            <button class="button button-close" type="button">
+              <span class="visually-hidden">Закрыть окно.</span>
+            </button>
+            <form class="form form-autorization" action="https://echo.htmlacademy.ru/" method="post">
+              <label class="form-autorization-label form-autorization-login">
+                <input class="input input-autorization input-login" type="email" name="login" placeholder="Логин" required>
+              </label>
+              <label class="form-autorization-label form-autorization-password">
+                <input class="input input-autorization input-password" type="password" name="password" placeholder="Пароль" required>
+              </label>
+              <label class="form-autorization-label">
+                <input class="visually-hidden checkbox-remember-input-hidden" type="checkbox" name="remember" checked>
+                  <span class="checkbox-remember-input"></span>
+                  <span class="remember-text">Запомнить меня</span>
+              </label>
+              <a class="link forgot-password-link" href="#">Забыл пароль</a>
+              <button class="button button-secondary button-login" type="submit">Войти</button>
+              <a class="button button-tertiary button-registration" href="#">Регистрация</a>
+            </form>
+          </div>
         </li>
       </ul>
       <ul class="list entry-list entry-list_authorized">
@@ -45,6 +68,23 @@
           <a class="link exit-link" href="#">
             <span class="visually-hidden">Выйти.</span>
           </a>
+            <!-- удалить класс hidden для отображения поповера -->
+          <div class="popover popover-personal-area">
+            <h2 class="title title-m title-welcome">Здравствуйте, Равшан&nbsp;Джамшутович</h2>
+            <button class="button button-close" type="button">
+              <span class="visually-hidden">Закрыть окно.</span>
+            </button>
+            <ul class="list popover-personal-area-list">
+              <li class="popover-personal-area-item">
+                <a class="link popover-personal-area-link" href="#">Мои заказы</a>
+              </li>
+              <li class="popover-personal-area-item">
+                <a class="link popover-personal-area-link" href="#">Личный кабинет</a>
+              </li>
+            </ul>
+            <button class="button button-tertiary button-exit" type="button">Выйти</button>
+          </div>
+
         </li>
       </ul>
     </div>

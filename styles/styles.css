@@ -471,6 +471,189 @@ body {
   display: none;
 }
 
+.popover {
+  position: absolute;
+  top: 13px;
+  right: 3px;
+  z-index: 10;
+  width: 360px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+.button-close {
+  position: absolute;
+  top: 19px;
+  right: 19px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  background-image: url("../images/control/close.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.popover-entry {
+  padding: 23px 29px 35px 31px;
+}
+
+.title-autorization {
+  margin-bottom: 45px;
+}
+
+.form-autorization {
+  display: grid;
+  grid-template-columns: repeat(2, 145px);
+  column-gap: 5px;
+}
+
+.form-autorization-login,
+.form-autorization-password {
+  grid-column: 1/-1;
+
+}
+
+.input-autorization {
+  width: 300px;
+  padding: 8px 0 6px 14px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #556981;
+  border: 1px solid #c5c5c5;
+  border-radius: 2px;
+}
+
+.form-autorization-label {
+  position: relative;
+  display: block;
+}
+
+.form-autorization-label:last-of-type {
+  margin-bottom: 38px;
+}
+
+.input-autorization::placeholder {
+  color: #cccccc;
+}
+
+.input-login {
+  margin-bottom: 7px;
+}
+
+.input-password {
+  margin-bottom: 9px;
+}
+
+.forgot-password-link {
+  grid-column: 2/-1;
+  margin: 4px 0 0 12px;
+}
+
+.remember-text {
+  margin-left: 38px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.checkbox-remember-input-hidden {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-remember-input {
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  transform: translateY(-50%);
+  width: 21px;
+  height: 21px;
+  background-image: url("../images/control/checkbox-off.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.checkbox-remember-input-hidden[type="checkbox"]:checked + .checkbox-remember-input {
+  background-image: url("../images/control/checkbox-on.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.form-autorization-label:hover .checkbox-remember-input {
+  margin: -1px 0 0 1px;
+  background-image: url("../images/control/checkbox-off-hover.svg");
+}
+
+.checkbox-remember-input-hidden[type="checkbox"]:checked:hover + .checkbox-remember-input {
+  background-image: url("../images/control/checkbox-on-hover.svg");
+}
+
+.forgot-password-link {
+  margin-top: 5px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.button-login {
+  width: 145px;
+  padding: 0 26px 0 45px;
+  margin-left: -6px;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: url("../images/control/login.svg");
+  background-repeat: no-repeat;
+  background-size: 15px;
+  background-position: center left 25px;
+}
+
+.button-registration {
+  width: 145px;
+  margin-left: -5px;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.popover-personal-area {
+  padding: 22px 53px 33px 31px;
+}
+
+.title-welcome {
+  color: #000000;
+  margin-bottom: 26px;
+}
+
+.popover-personal-area-list {
+  margin-bottom: 24px;
+}
+
+.popover-personal-area-item:not(:last-child) {
+  margin-bottom: 23px;
+}
+
+.popover-personal-area-link {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #3d546f;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.button-exit {
+  width: 145px;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
 /* store */
 
 .store-wrapper {
