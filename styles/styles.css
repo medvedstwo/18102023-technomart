@@ -1149,6 +1149,11 @@ body {
   background-image: url("../images/control/checkbox-on-disabled.svg");
 }
 
+.radio-input-hidden:focus-visible + .radio-input,
+.checkbox-input-hidden:focus-visible + .checkbox-input {
+  outline: 2px solid #ffbf47;
+}
+
 .radio-input {
   position: absolute;
   top: 50%;
@@ -1257,6 +1262,14 @@ body {
   border-radius: 2px;
 }
 
+.products-cards-item_button-buy:hover {
+  background-color: #5fbb2d;
+}
+
+.products-cards-item_button-buy:active {
+  background-color: #518534;
+}
+
 .products-cards-item_button-favorites {
   padding: 9px 0;
   font-size: 14px;
@@ -1311,6 +1324,10 @@ body {
   background-color: #ca2c37;
 }
 
+.products-cards-item:focus-within .products-cards-item_hover {
+  display: flex;
+}
+
 .button-buy:active {
   background-color: #ba2732;
 }
@@ -1353,6 +1370,14 @@ body {
   color: #ffffff;
   background-color: #3d546f;
   border-radius: 2px;
+}
+
+.products-pagination-link:hover {
+  opacity: 0.6;
+}
+
+.products-pagination-link:active {
+  opacity: 0.3;
 }
 
 .products-pagination-link_current {
@@ -1471,6 +1496,14 @@ body {
   display: block;
 }
 
+.contacts-link:hover {
+  opacity: 0.6;
+}
+
+.contacts-link:active {
+  opacity: 0.3;
+}
+
 .contacts-description {
   margin-bottom: 30px;
 
@@ -1498,6 +1531,15 @@ body {
   display: inline-block;
   margin-bottom: 15px;
 }
+
+.footer-logo-link:hover {
+  opacity: 0.6;
+}
+
+.footer-logo-link:active {
+  opacity: 0.3;
+}
+
 
 .footer-address-description {
   font-style: normal;
@@ -1586,4 +1628,25 @@ body {
 
 .subscribe-label {
   margin-bottom: 3px;
+}
+
+.footer-social-link path:first-of-type {
+  fill: #ffffff;
+  opacity: 0.1;
+}
+
+.footer-social-link:hover path:first-of-type {
+  fill: #293449;
+  opacity: 1;
+}
+
+.footer-feedback-link:hover,
+.footer-copyright-link:hover {
+  color: #ffbf47;
+  text-decoration: underline;
+}
+
+.footer-feedback-link:active,
+.footer-copyright-link:active {
+  opacity: 0.6;
 }
