@@ -259,7 +259,12 @@ body {
   left: 15px;
   transform: translateY(-50%);
   z-index: 1;
+  width: 20px;
+  height: 20px;
   background-color: transparent;
+  background-image: url("../images/control/search.svg");
+  background-repeat: no-repeat;
+  background-position: center;
   opacity: 0.3;
 }
 
@@ -279,6 +284,13 @@ body {
   color: #293449;
   background-color: #f1f5f7;
   outline: none;
+}
+
+.input-form-search:focus + .button-search {
+  background-image: url("../images/control/search-dark.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 1;
 }
 
 .input-form-search::placeholder {
