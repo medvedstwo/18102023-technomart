@@ -138,6 +138,19 @@ body {
   font-family: "PT Sans", sans-serif;
 }
 
+.input:invalid:not(:placeholder-shown) {
+  border: 1px solid #ee3643;
+}
+
+.input:invalid:not(:placeholder-shown):hover {
+  outline: 1px solid #ee3643;
+}
+
+.input:disabled {
+  color: #808080;
+  background-color: rgba(241, 245, 247, 0.5);
+}
+
 /* link */
 
 .link {
